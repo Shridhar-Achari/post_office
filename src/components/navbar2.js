@@ -28,6 +28,7 @@ function Navbars()
                 <li><Link to='nps'>NPS</Link></li>
                 <li><Link to='stamp'>Stamps</Link></li>  
                 <li><Link to='business'>Business and E-Commerce</Link></li>  
+                <li><Link to='test'>Testimonials</Link></li>  
             </ul>  
             </li> 
         </div>

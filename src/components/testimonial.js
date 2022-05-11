@@ -7,6 +7,9 @@ class Test extends Component {
     return (
       <div className="App">
 <div class="container-fluid">
+<div class="npshead">
+        <h2>Testimonials</h2>
+        </div>
       <div>
       <Testimonial
         img ="https://randomuser.me/api/portraits/men/44.jpg"

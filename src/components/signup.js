@@ -118,7 +118,7 @@ render() {
       //     </Col>
       //     <Col md="4">
       //     </Col> */}
-           <div className="container">
+           <div className="container signupform">
                
                <div class="col-sm-4"></div>
                <div class="col-sm-4">

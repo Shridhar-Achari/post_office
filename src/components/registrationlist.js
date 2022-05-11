@@ -30,7 +30,7 @@ export default class NPSList extends Component {
     render() {  
       return (  
         <div>  
-          <h4 align="center">NPS Account Details:</h4>  
+          <div class="npshead"><h4 align="center">NPS Account Details:</h4></div>  
           <table className="table table-striped" style={{ marginTop: 10 }}>  
             <thead>  
               <tr>  

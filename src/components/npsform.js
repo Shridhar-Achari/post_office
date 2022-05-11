@@ -1,6 +1,6 @@
 import React from 'react';  
 import axios from 'axios'; 
-import Reg from './registrationlist'
+//import Reg from './registrationlist'
 import { Container, Col, Form, Row, FormGroup, Label, Input, Button } from 'reactstrap';  
 class Npsform extends React.Component{  
 constructor(props){  
@@ -13,17 +13,18 @@ Email:'',
 Npsform=()=>{  
   axios.post('https://localhost:44313/Api/NPSAccounts', {Fname:this.state.Fname,Lname:this.state.Lname,Pan:this.state.Pan,Dob:this.state.Dob,Email:this.state.Email,Mobile:this.state.Mobile})  
 .then(json => {  
-if(json.data.Status===200){  
-  console.log(json.data.Status);  
-  alert("Data Save Successfully");  
-this.props.history.push("/NPSList")
-}  
-else{  
-alert('Data not Saved');  
-debugger;  
-this.props.history.push('/NPSList')  
-}  
-})  
+// if(json.data.Status===200){  
+//   console.log(json.data.Status);  
+//   alert("Data Save Successfully");  
+// this.props.history.push("/NPSList")
+// }  
+// else{  
+alert('Data Save Successfully');  
+window.location.reload(false)
+// debugger;  
+// this.props.history.push('/NPSList')  
+// }  
+ })  
 }  
    
 handleChange= (e)=> {  
@@ -33,7 +34,7 @@ this.setState({[e.target.name]:e.target.value});
 render() {  
 return (  
    <Container className="App"> 
-    <h4 className="PageHeading">Create NPS Account</h4>  
+    <div class="npshead"><h4 className="PageHeading">Create NPS Account</h4></div> 
     <Form className="form">  
       <Col>  
         <FormGroup row>  
@@ -75,19 +76,19 @@ return (
         <FormGroup row>  
           <Col sm={10}>  
             <Input type="checkbox" name="Linked" onChange={this.handleChange} value="" />
-            <Label for="Lname" sm={2}>Mobile Number Linked with Aadhaar</Label> 
-          </Col>  
+            </Col>
+            <Label for="Aadhaar" sm={10}>Mobile Number Linked with Aadhaar</Label> 
         </FormGroup> 
       </Col>  
       <Col>  
         <FormGroup row>  
           <Col sm={5}>  
           </Col>  
-          <Col sm={1}>  
+          <Col sm={2}>
           <button type="button" onClick={this.Npsform} className="btn btn-success">Open New Account</button>  
-          </Col>  
-          <Col sm={1}>  
-            <Button color="danger">Cancel</Button>{' '}  
+          </Col> 
+          <Col sm={1}> 
+            <Button color="danger" left="100px">Cancel</Button>{' '}  
           </Col>  
           <Col sm={5}>  
           </Col>  

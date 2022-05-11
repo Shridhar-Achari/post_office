@@ -35,7 +35,7 @@ class Carousel extends Component {
             </div>  
             <div class="item">  
               <img id="slide" src="https://www.indiapost.gov.in/VAS/PublishingImages/BUSINESS%20PARCEL-B.jpg" alt="slide3"></img>
-              <div class="carousel-caption"><br></br>
+              <div class="carousel-caption"><br></br><br></br>
                 {/* <h1><strong> SRB BANK</strong></h1>
                 <p>We don’t expect a big deposit, but small deposits add up</p><br></br> */}
                 <button type="button" id="btn" class="btn btn-primary" onClick=''>Know More</button> 

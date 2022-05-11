@@ -29,8 +29,8 @@
    float: left;
  }
   #slide{
-  height: 300px;
-  width:1350px;
+  height: 350px;
+  width:1350px; 
   overflow-x: hidden;
   }
   /*Title on Page1*/
@@ -117,7 +117,6 @@
     text-shadow: 10px 10px 10px black,8px 8px 8px gray;;
   }
   .carousel-caption p{
-    
     font-size: 25px;
     text-shadow: 6px 6px 4px black;
     overflow-x: hidden;
@@ -215,4 +214,11 @@
 .Container1{
   position: relative;
   left:80px;
+}
+.npshead{
+  text-align: center;
+  font-size: 20px;
+}
+.signupform{
+  width:550px;
 }
