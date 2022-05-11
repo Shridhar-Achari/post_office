@@ -1,38 +1,218 @@
-.App {
-  text-align: center;
+
+.postlogo{
+  background-color: #fff;
+}
+.header-logo{
+  background-color: rgb(255, 255, 255);
+}
+.img1{
+  float: left;
+}
+.img2{
+  border: 50%;
+}
+.img3{
+  float: right;
+}
+.card{
+  width: 20rem;
+}
+.container-fluid{
+  top:50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .nav{
+    color:#fff;
+    font-size: large;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ .navbar-toggler{
+   float: left;
+ }
+  #slide{
+  height: 300px;
+  width:1350px;
+  overflow-x: hidden;
   }
-  to {
-    transform: rotate(360deg);
+  /*Title on Page1*/
+  
+  i{
+  color: aliceblue; 
   }
+  /*Carousel 1*/
+  #btn
+  {
+     width: 200px;
+     height: 40px;
+     border: none;
+     border-radius:30px;
+     background: #7F7FD5;  
+     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+     color:rgb(255, 255, 255);
+     font-size: 16px;
+     font-weight: bold;
+  }
+  #btn:hover{
+     box-shadow: 8px 8px 8px gray;
+  }
+  .row1{
+    position:relative;
+    align-items: center;
+  }
+  #fig h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #fig p{
+    font-size: 14px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #footer{
+    position: relative;
+    top: 120px;
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+  }
+  footer h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    text-align: center;
+  }
+  footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .social a{
+    font-size: 18px;
+    display: inline-block;
+    background: #545454;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    border-width: 3px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s
+  }
+  .social a:hover{
+    background-color: rgb(37, 191, 238);
+    box-shadow:6px 6px 6px #ffffff;
+  }
+  .carousel-caption h1{
+    font-size: 55px;
+    color: white;
+    text-overflow: ellipsis; 
+    text-shadow: 10px 10px 10px black,8px 8px 8px gray;;
+  }
+  .carousel-caption p{
+    
+    font-size: 25px;
+    text-shadow: 6px 6px 4px black;
+    overflow-x: hidden;
+  }
+  figcaption{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    color: antiquewhite;
+    text-align: center;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .carousel-caption {font-size:45px;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .carousel-caption {font-size:55px;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .carousel-caption{font-size:65px;}
+  } 
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .card{
+    width: 18rem;
+  }
+  .items{
+    position: relative;
+        color: white;
+        background-size: contain;
+        background-color: #7F7FD5;
+    }
+    .items h2{
+        margin-left: 250px;
+    }
+    .items p{
+        margin-left: 250px;  
+    }
+    .cartbtn{
+        position: relative;
+        height: 30px;
+        width: 100px;
+        margin-left: 100px;
+    }
+.stampimg{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  float: left;
+  
+}
+.aboutus{
+  text-align: center ;
+}
+.Container1{
+  position: relative;
+  left:80px;
 }
