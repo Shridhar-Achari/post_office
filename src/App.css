@@ -1,6 +1,7 @@
 
 .postlogo{
   background-color: #fff;
+  overflow-x: hidden;
 }
 .header-logo{
   background-color: rgb(255, 255, 255);
@@ -14,9 +15,7 @@
 .img3{
   float: right;
 }
-.card{
-  width: 20rem;
-}
+
 .container-fluid{
   top:50px;
 }
@@ -211,9 +210,9 @@
 .aboutus{
   text-align: center ;
 }
-.Container1{
+.c1{
   position: relative;
-  left:80px;
+  margin-left:100px;
 }
 .npshead{
   text-align: center;
@@ -221,4 +220,9 @@
 }
 .signupform{
   width:550px;
+}
+.abtimg{
+  margin-top: 13px;
+  width: 150px;
+  height: 150px;
 }

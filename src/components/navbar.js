@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function NavComponent()
 {
 return (
-    <div className="App1">
+    <div className="App">
          <nav class="navbar navbar-inverse navbar sticky-top" >  {/*navbar-fixed-top  */}
             <div class="container-fluid">  
 

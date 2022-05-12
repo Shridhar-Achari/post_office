@@ -13,10 +13,10 @@ code {
     monospace;
 }
 .navbar{
-  height:60px;
   background-color:rgb(0, 0, 0);
-  text-align: center;
+  /* text-align: center; */
   font-size: 20px;
   color: black;  
 }
+
 

@@ -1,22 +1,26 @@
 [
     {
         "pic": "https://www.indiapost.gov.in/PublishingImages/MinstrOfComm.jpg",
-        "name": "MOC, Shri Ashwini Vaishnaw",
+        "name": "Shri Ashwini",
+        "post":"Manager",
         "path": ""
     },
     {
         "pic": "https://www.indiapost.gov.in/PublishingImages/MinisterOfState.jpg",
         "name": "Ramesh Adiga",
+        "post":"Supervisor",
         "path": ""
     },
     {
         "pic": "https://randomuser.me/api/portraits/men/61.jpg",
         "name": "Madhav Rao",
+        "post":"Assistant Manger",
         "path": ""
     },
     {
         "pic": "https://randomuser.me/api/portraits/men/36.jpg",
         "name": "Girish Yadav",
+        "post":"Director",
         "path": ""
     }
 ]

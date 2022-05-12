@@ -7,13 +7,14 @@ function Navbars()
         <div className="App">
 <div class="container-fluid"></div>
     <div class="pos-f-t">
-    <nav class="navbar navbar-inverse bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-    </nav>
-    <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-light p-4">
+    <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+  <div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>  
             <ul class="dropdown-menu">  
                 <li><Link to='insurance'>Insurance</Link></li> 
@@ -31,6 +32,7 @@ function Navbars()
                 <li><Link to='test'>Testimonials</Link></li>  
             </ul>  
             </li> 
+        </div>
         </div>
     </div>
     

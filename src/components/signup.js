@@ -118,7 +118,7 @@ render() {
       //     </Col>
       //     <Col md="4">
       //     </Col> */}
-           <div className="container signupform">
+           <div className="container signupform signinwidth" style={{background:'#eeeee4',borderRadius:'20px'}}>
                
                <div class="col-sm-4"></div>
                <div class="col-sm-4">

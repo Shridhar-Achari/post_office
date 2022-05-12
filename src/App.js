@@ -6,7 +6,7 @@ import Logo from './components/logo';
 import NPS from './components/nps';
 import Menu1 from './components/menu';
 import NavBar from './components/navbar';
-import NavBar2 from './components/navbar2';
+//import NavBar2 from './components/navbar2';
 import SignUp from './components/signup';
 import Contact from './components/contact';
 import Stamp1 from './components/stamps';
@@ -24,7 +24,7 @@ return (
   <div className="App">
     <NavBar/>
     <Logo/>
-    <NavBar2/>
+    {/* <NavBar2/> */}
   <header className="App-header">
    <div>
       <Routes>
