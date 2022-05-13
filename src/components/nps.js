@@ -24,7 +24,7 @@ function NPS()
   </li>
 </ul>
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="aboutnps" role="tabpanel" aria-labelledby="about-tab">
+  <div class="tab-pane fade active" id="aboutnps" role="tabpanel" aria-labelledby="about-tab">
       <ul type='1'>
           <div class="npshead"><h3>National Pension System - All Citizen Model</h3></div>
           <li><p>National Pension System (NPS) is a voluntary retirement savings scheme laid out to allow the subscribers to make defined contribution towards planned savings thereby securing the future in the form of Pension. It is an attempt towards a sustainable solution to the problem of providing adequate retirement income to every citizen of India. At the time of normal exit from NPS, the subscribers may use the accumulated pension wealth under the scheme to purchase a life annuity from a PFRDA empaneled life insurance company apart from withdrawing a part of the accumulated pension wealth as lump-sum, if they choose so. PFRDA is the nodal agency for implementation and monitoring of NPS.</p></li>
@@ -35,7 +35,6 @@ function NPS()
   </div>
   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
     <Npsdetail/>
-    
   </div>
 </div>
     </div> 
