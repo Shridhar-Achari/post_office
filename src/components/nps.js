@@ -1,6 +1,7 @@
 import React from "react";
 import NPSF from './npsform';
 import Npsdetail from './registrationlist';
+
 //import { Link } from "react-router-dom";
 function NPS()
 {
@@ -34,6 +35,7 @@ function NPS()
   </div>
   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
     <Npsdetail/>
+    
   </div>
 </div>
     </div> 

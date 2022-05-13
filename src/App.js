@@ -17,6 +17,8 @@ import RegDetail from './components/registrationlist';
 import NPSFORM from './components/npsform';
 import Footer from './components/footer';
 import Business from "./components/business";
+import EditUser from "./components/NPSDetails/edit";
+import ViewUser from "./components/NPSDetails/view";
 import './App.css';
 function App() {
 return (
@@ -41,6 +43,8 @@ return (
           <Route path="regdetail" element={<RegDetail />} />
           <Route path="npsf" element={<NPSFORM />} />
           <Route path="business" element={<Business />} />
+          <Route path="edit/:ID" element={<EditUser />} />
+          <Route path="view/:ID" element={<ViewUser />} />
           <Route path="/" element={<Home />} />
       </Routes>
     </div>

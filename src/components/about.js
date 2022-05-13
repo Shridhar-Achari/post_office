@@ -28,7 +28,7 @@ class About extends Component {
               <div className="col-md-3">
         <div className="card Infocard cardbg bg-info">
           <div className="card-body">
-         <img src={record.pic} class="abtimg"/>
+         <img src={record.pic} class="abtimg" alt="About"/>
        <center>  <h5 className="card-title">{record.name}</h5>
             <p className="card-text">{record.post}</p>
             <br></br>

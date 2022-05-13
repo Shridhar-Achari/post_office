@@ -1,7 +1,7 @@
 import React from 'react';  
 import axios from 'axios'; 
 //import Reg from './registrationlist'
-import { Container, Col, Form, Row, FormGroup, Label, Input, Button } from 'reactstrap';  
+import { Container, Col, Form, FormGroup, Label, Input, Button } from 'reactstrap';  
 class Npsform extends React.Component{  
 constructor(props){  
 super(props)  
@@ -11,7 +11,7 @@ Email:'',
 }  
  }  
 Npsform=()=>{  
-  axios.post('https://localhost:44313/Api/NPSAccounts', {Fname:this.state.Fname,Lname:this.state.Lname,Pan:this.state.Pan,Dob:this.state.Dob,Email:this.state.Email,Mobile:this.state.Mobile})  
+  axios.post('https://localhost:44313/Api/NPSAccounts', {Fname:this.state.Fname,Lname:this.state.Lname,Pan:this.state.Pan,Dob:this.state.Dob,Email:this.state.Email,Mobile:this.state.Mobile,View:this.state.View,Edit:this.state.Edit,Delete:this.state.Delete})  
 .then(json => {  
 // if(json.data.Status===200){  
 //   console.log(json.data.Status);  
@@ -58,7 +58,7 @@ return (
         <FormGroup row>  
           <Label for="date" sm={2}>Date of Birth</Label>  
           <Col sm={10}>  
-            <Input type="date" name="Dob" onChange={this.handleChange} value={this.state.Dob} placeholder="yyyy/mm/dd" />  
+            <Input type="text" name="Dob" onChange={this.handleChange} value={this.state.Dob} placeholder="yyyy/mm/dd" />  
           </Col>  
         </FormGroup> 
         <FormGroup row>  
